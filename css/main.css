@@ -406,12 +406,22 @@ body {
     font-size: 14px;
 }
 
+.button a:hover {
+    text-decoration: underline;
+}
+
 .result {
     background: #fff;
     height: 740px;
     width: 600px;
     border-radius: 5px;
     margin-top: -20px;
+}
+
+#result {
+    color: black;
+    font-size: 60px;
+    text-align: center;
 }
 
 .featureLists {

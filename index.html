@@ -8,6 +8,7 @@
     <title>WeatherStack</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/739e5dbd28.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -188,11 +189,11 @@
         <span class="content">Get years of historical weather data, request real-time weather information or make use of accurate weather forecasts.</span>
     </div>
     <div class="button">
-        <div class="button1"><a href="">Current Weather</a></div>
-        <div class="button2"><a href="">Weather History</a></div>
-        <div class="button3"><a href="">Weather Forecast</a></div>
+        <div id="button1" class="button1"><a id="b1" href="javascript:void(0)">Current Weather</a></div>
+        <div id="button2" class="button2"><a id="b2" href="javascript:void(0)">Weather History</a></div>
+        <div id="button3" class="button3"><a id="b3" href="javascript:void(0)">Weather Forecast</a></div>
     </div>
-    <div class="result"></div>
+    <div class="result"><span id="result"></span></div>
     <div class="featureLists">
         <div class="featureCard">
             <div class="featureList">
