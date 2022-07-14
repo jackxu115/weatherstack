@@ -411,17 +411,19 @@ body {
 }
 
 .result {
-    background: #fff;
+    background: #000000;
     height: 740px;
     width: 600px;
     border-radius: 5px;
     margin-top: -20px;
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
 }
 
 #result {
-    color: black;
+    color: #ffffff;
     font-size: 60px;
-    text-align: center;
 }
 
 .featureLists {
