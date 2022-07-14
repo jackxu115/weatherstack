@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .container {
     border: #5f5f5f 2px solid;
     background-color: cornflowerblue;
@@ -26,9 +30,26 @@
     align-items: center;
 }
 
+.burgerMenu {
+    display: none;
+}
+
+/* media query should be place at the end*/
 @media only screen and (max-width: 800px) {
     .menu .menuContainer.menuLink {
         display: none;
     }
-    
+    .burgerMenu {
+        display: block;
+        color: white;
+        font-size: 25px;
+        height: 30px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .burgerMenu {
+        /*display: none;*/
+    }
 }
