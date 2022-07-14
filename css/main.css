@@ -663,8 +663,9 @@ body {
     color: #fff;
 }
 
-.access lnr {
-    font-size: 30px;
+.access .lnr {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .footer {
