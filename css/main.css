@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-    padding-right: 120px;
-    padding-left: 120px;
+    padding-right: 60px;
+    padding-left: 60px;
     margin: 0;
 }
 
@@ -415,6 +415,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    padding-bottom: 50px;
 }
 
 .featureCard {
@@ -446,10 +447,278 @@ body {
     font-size: 30px;
 }
 
+.grid {
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.grid .heading {
+    font-size: 25px;
+    font-family: Promo, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
 
+.grid .content {
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 600px;
+    text-align: center;
+}
 
+.client {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
 
+.client1{
+    background: #263e6a;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client2{
+    background: #eef2f5;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.client3{
+    background: #01275b;
+    width: 135px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.client4{
+    background: #eef2f5;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.client5{
+    background: #009e4d;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.client6{
+    background: #027ac2;
+    width: 190px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.client7{
+    background: #ee2e25;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.client8{
+    background: #eef2f5;
+    width: 135px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client9{
+    background: #23477f;
+    width: 260px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client10{
+    background: #eef2f5;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.client1 img{
+    width: 170px;
+}
+
+.client2 img{
+    width: 160px;
+
+}
+
+.client3 img{
+    width: 70px;
+
+}
+
+.client4 img{
+    width: 170px;
+
+}
+
+.client5 img{
+    width: 160px;
+
+}
+
+.client6 img{
+    width: 40px;
+
+}
+
+.client7 img{
+    width: 100px;
+
+}
+
+.client8 img{
+    height: 70px;
+
+}
+
+.client9 img{
+    width: 230px;
+    height: 60px;
+
+}
+
+.client10 img{
+    width: 160px;
+}
+
+.access {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: #eef2f5;
+}
+
+.access .heading {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.access .button {
+    background: #f47b21;
+    border-radius: 3px;
+    padding: 20px 20px;
+}
+
+.access .button a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.access lnr {
+    font-size: 30px;
+}
+
+.footer {
+    background: #184157;
+    color: #fff;
+    gap: 80px;
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.footerLeft {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    width: 800px;
+}
+
+.leftLists {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftLists .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.leftLists .heading {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.leftLists .content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.leftLists .content a:hover {
+    text-decoration: underline;
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: column;
+}
+.footerRight .footerLogo {
+    padding-bottom: 70px;
+}
+
+.footerRight .footerLogo img {
+    height: 40px;
+}
+
+.socials {
+    padding-bottom: 20px;
+}
+
+.footerRight .socials img {
+    height: 25px;
+    width: 25px;
+}
+
+.footerRight .copyright {
+    font-size: 14px;
+}
+
+.footerRight .copyright a {
+    color: #fff;
+}
 
 
 
