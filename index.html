@@ -5,39 +5,243 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/739e5dbd28.js" crossorigin="anonymous"></script>
     <title>WeatherStack</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="https://kit.fontawesome.com/739e5dbd28.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+
+<div class="background-images"></div>
 <div class="container row menu">
-    <div class="menuContainer menu">
-            <img src="png/weatherstack_logo_white.png" alt="">
+    <div class="menuContainer">
+        <img src="png/weatherstack_logo_white.png" alt="">
     </div>
     <div class="menuContainer menuLink">
-        <a href="">Link1</a>
-        <a href="">Link2</a>
-        <a href="">Link3</a>
-        <a href="">Link4</a>
-        <a href="">Link5</a>
-        <a href="">Link6</a>
-        <a href="">Link7</a>
-        <a href="">Link8</a>
+        <a href="">Pricing</a>
+        <a href="">Documentation</a>
+        <a href="">FAQ</a>
+        <a href="">Affiliates</a>
+        <a href="">Blog</a>
+        <a href="" class="status"><span>Status</span></a>
+        <a href="" class="login">Login</a>
+        <a href="" class="signup">SIGN UP FREE</a>
     </div>
     <div class="menuContainer burgerMenu">
         <i class="fa-solid fa-bars"></i>
     </div>
 </div>
-<div class="container">weather forecast</div>
+<div class="container row home">
+    <div class="intro">
+        <div>
+            <h2>
+                Real-Time & Historical
+                <br>
+                World Weather Data API
+            </h2>
+            <h4>
+                Retrieve instant, accurate weather information for
+                <br>
+                any location in the world in lightweight JSON format
+            </h4>
+            <div class="customer">
+                <span class="lnr lnr-mustache"></span>
+                <span>Trusted by 75,000 companies worldwide</span>
+            </div>
+
+        </div>
+        <div class="startAPI">
+            <span id="API"><a href="">Start using the API</a></span>
+            <span if="freeAPI"> -It's free!</span>
+        </div>
+    </div>
+    <div class="background">
+        <div class="location">
+            <span>Port Mann, British Columbia, Canada</span>
+        </div>
+        <div class="main">
+            <div class="main_left">
+                <img src="png/weather_icon_full_sun.svg" alt="">
+                <span>Sunny</span>
+            </div>
+            <div class="main_center">
+                <span class="temperature">23°c</span>
+            </div>
+            <div class="main_right">
+                <span class="wind">Wind: 6 kmph</span>
+                <span class="precip">Precip: 0 mm</span>
+                <span class="pressure">Pressure: 1015 mb</span>
+            </div>
+        </div>
+        <div class="weeks">
+            <div class="day">
+                <span class="name">MON</span>
+                <img class="full_clouds" src="png/weather_icon_full_sun.svg" alt="">
+                <div class="temperature">20 °c</div>
+            </div>
+            <div class="day">
+                <span class="name">TUE</span>
+                <img class="full_sun" src="png/weather_icon_partly_cloudy.svg" alt="">
+                <div class="temperature">16 °c</div>
+            </div>
+            <div class="day">
+                <span class="name">WED</span>
+                <img class="partly_cloudy" src="png/weather_icon_full_sun.svg" alt="">
+                <div class="temperature">17 °c</div>
+            </div>
+            <div class="day">
+                <span class="name">THU</span>
+                <img class="rainy" src="png/weather_icon_full_sun.svg" alt="">
+                <div class="temperature">19 °c</div>
+            </div>
+            <div class="day">
+                <span class="name">FIR</span>
+                <img class="thunder" src="png/weather_icon_full_sun.svg" alt="">
+                <div class="temperature">17 °c</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container row company">
+    <div><span>Happy Customers:</span></div>
+    <div class="company1"><img src="png/client_deloitte.svg" alt=""></div>
+    <div class="company2"><img src="png/client_microsoft.svg" alt=""></div>
+    <div class="company3"><img src="png/client_warnerbros.svg" alt=""></div>
+    <div class="company4"><img src="png/client_wawa.svg" alt=""></div>
+    <div class="company5"><img src="png/client_schneider.svg" alt=""></div>
+    <div class="company6"><img src="png/client_ericsson_2.svg" alt=""></div>
+</div>
+<div class="container row show">
+    <div class="boxes">
+        <div class="box">
+            <span class="lnr lnr-mustache"></span>
+            <span class="heading">Real-Time, History, Forecast</span>
+            <span class="content">Our API covers global weather data across the board — from a multi-year history all the way to live information and accurate weather forecasts.</span>
+        </div>
+        <div class="box">
+            <span class="lnr lnr-mustache"></span>
+            <span class="heading">Millions of Locations</span>
+            <span class="content">Make use of live or hour-by-hour weather data for millions of cities and towns worldwide, supporting a variety methods to look up any location.</span>
+        </div>
+        <div class="box">
+            <span class="lnr lnr-mustache"></span>
+            <span class="heading">Rock-Solid Uptime & Speed</span>
+            <span class="content">Powered by best-in-class cloud infrastructure, our API delivers data in milliseconds around the clock with an uptime of nearly 100%.</span>
+        </div>
+        <div class="box">
+            <span class="lnr lnr-mustache"></span>
+            <span class="heading">Start Free, Upgrade Later</span>
+            <span class="content">Start testing the API immediately by signing up for our Free Plan. You can always upgrade later — no strings attached, no credit card required.</span>
+        </div>
+    </div>
+
+</div>
+<div class="container row feature">
+    <div class="detail">
+        <div class="heading">
+            <span>
+                Access to Global Weather Data, Developer-friendly
+            </span>
+        </div>
+        <div class="content">
+            <span>
+                Get instant access to accurate weather data for any geo-point in the world and enjoy a rich set of capabilities:
+            </span>
+        </div>
+        <div class="lists">
+            <div class="list">
+                <spna class="lnr lnr-mustache"></spna>
+                <spna class="listContent">Real-Time Weather API</spna>
+            </div>
+            <div class="list">
+                <spna class="lnr lnr-mustache"></spna>
+                <spna class="listContent">Historical Weather API</spna>
+            </div>
+            <div class="list">
+                <spna class="lnr lnr-mustache"></spna>
+                <spna class="listContent">Weather Forecasts API</spna>
+            </div>
+            <div class="list">
+                <spna class="lnr lnr-mustache"></spna>
+                <spna class="listContent">Location Autocomplete</spna>
+            </div>
+            <div class="list">
+                <spna class="lnr lnr-mustache"></spna>
+                <spna class="listContent">Bulk API Endpoint</spna>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <img src="png/world_map_vector.svg" alt="">
+
+    </div>
+
+</div>
+<div class="container column method">
+    <div class="methodHeading">
+        <div class="example">
+            <span >example</span>
+        </div>
+        <span class="heading">Complete Weather Data Coverage</span>
+        <span class="content">Get years of historical weather data, request real-time weather information or make use of accurate weather forecasts.</span>
+    </div>
+    <div class="button">
+        <div class="button1"><a href="">Current Weather</a></div>
+        <div class="button2"><a href="">Weather History</a></div>
+        <div class="button3"><a href="">Weather Forecast</a></div>
+    </div>
+    <div class="result"></div>
+    <div class="featureLists">
+        <div class="featureCard">
+            <div class="featureList">
+                <span class="lnr lnr-mustache"></span>
+                <span class="heading">Reliable Data Sources</span>
+            </div>
+            <span class="content">Powered by a strong backbone of data sources, our weather data API comes with the highest level of reliability, consistency and accuracy.</span>
+        </div>
+        <div class="featureCard">
+            <div class="featureList">
+                <span class="lnr lnr-mustache"></span>
+                <span class="heading">Lightning-fast Response</span>
+            </div>
+            <span class="content">Weather data is delivered in lightweight JSON format to ensure a high level of speed and compatibility with any programming language.</span>
+        </div>
+        <div class="featureCard">
+            <div class="featureList">
+                <span class="lnr lnr-mustache"></span>
+                <span class="heading">Scalable Infrastructure</span>
+            </div>
+            <span class="content">Our REST API is backed by scalable cloud infrastructure built and maintained by apilayer, capable of handling billions of requests per day.</span>
+        </div>
+        <div class="featureCard">
+            <div class="featureList">
+                <span class="lnr lnr-mustache"></span>
+                <span class="heading">Flexible Location Lookup</span>
+            </div>
+            <span class="content">Millions of locations can be looked up by city or region name, ZIP code, IP address, or even using latitude and longitude coordinates.</span>
+        </div>
+        <div class="featureCard">
+            <div class="featureList">
+                <span class="lnr lnr-mustache"></span>
+                <span class="heading">Bank-Level Security</span>
+            </div>
+            <span class="content">All data streams sent to and from the weatherstack API are secured using industry-standard 256-bit HTTPS (SSL) encryption.</span>
+        </div>
+        <div class="featureCard">
+            <div class="featureList">
+                <span class="lnr lnr-mustache"></span>
+                <span class="heading">Extensive API Documentation</span>
+            </div>
+            <span class="content">An API is only as good as its documentation, which is why a series of interactive code examples in multiple languages are waiting for you.</span>
+        </div></div>
+</div>
 <div class="container"></div>
 <div class="container"></div>
 <div class="container"></div>
 <div class="container"></div>
-<div class="container"></div>
-<div class="container"></div>
-<div class="container"></div>
-<div class="container"></div>
+
 
 </body>
 

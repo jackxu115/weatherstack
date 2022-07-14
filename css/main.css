@@ -1,11 +1,13 @@
 body {
     margin: 0;
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    position: relative;
 }
 
 .container {
-    border: #5f5f5f 2px solid;
-    background-color: cornflowerblue;
-
+    padding-right: 120px;
+    padding-left: 120px;
+    margin: 0;
 }
 
 .row {
@@ -17,6 +19,49 @@ body {
 .column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuLink {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.menuLink a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.status::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: #47c652;
+}
+
+.menuLink span {
+    padding-left: 5px;
+}
+
+.login {
+    background: rgba(255, 255, 255, .15);
+    border-radius: 3px;
+}
+
+.signup {
+    background: #f47b21;
+    border-radius: 3px;
 }
 
 .menuContainer img {
@@ -26,13 +71,405 @@ body {
 
 .menu {
     display: flex;
-    height: 50px;
+    height: 70px;
     align-items: center;
 }
 
 .burgerMenu {
     display: none;
 }
+
+.background-images {
+    position: absolute;
+    height: 550px;
+    width: 100%;
+    /*padding-top: 40px;*/
+    background: url("../png/mountains.svg"), linear-gradient(135deg, #1f4e69, #164068 100%), center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.home {
+    padding-top: 50px;
+    height: 430px;
+}
+
+.background {
+    width: 492px;
+    height: 292px;
+    border: 4px solid #608094;
+    border-radius: 10px;
+    background: #16394c;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.location {
+    position: absolute;
+    padding-top: 10px;
+}
+
+.location span, .main_left span {
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.main_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 50px;
+}
+
+.main_left img {
+    width: 140px;
+}
+
+.main_left span {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 45px;
+}
+
+.main_center span {
+    /*position: absolute;*/
+    font-size: 32px;
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    padding-right: 90px;
+}
+
+.main_right {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 13px;
+    gap: 5px;
+}
+
+.weeks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.temperature {
+    font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.day img {
+    height: 70px;
+}
+
+.intro {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.intro h2 {
+    font-size: 32px;
+}
+
+.intro h4 {
+    font-size: 18px;
+}
+
+.intro .customer {
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 17px;
+    background: rgba(255, 255, 255, .1);
+    padding: 10px 15px;
+    width: 350px;
+}
+
+.startAPI {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.startAPI #API {
+    background: #f47b21;
+    padding: 20px 40px;
+    border-radius: 3px;
+}
+
+.startAPI a {
+    text-transform: uppercase;
+    background: #f47b21;
+    text-decoration: none;
+    color: #fff;
+}
+
+#freeAPI {
+    font-family: FriendlyFont, sans-serif;
+    font-size: 19px;
+    left: 20px;
+}
+
+.company {
+    background: #eff2f5;
+    align-items: center;
+    height: 140px;
+}
+
+.company1 img {
+    width: 100px;
+}
+.company2 img {
+    width: 100px ;
+}
+.company3 img {
+    width: 50px;
+}
+.company4 img {
+    width: 90px;
+}
+.company5 img {
+    width: 110px;
+}
+.company6 img {
+    width: 60px;
+}
+
+.show {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    background: #eff2f5;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.box .heading {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box .content {
+    font-size: 14px;
+}
+
+.box .lnr {
+    font-size: 30px;
+}
+
+.feature {
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.map img {
+    width: 550px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail .heading {
+    font-size: 25px;
+}
+
+.detail .content, .list .listContent {
+    font-size: 15px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.list .lnr {
+    font-size: 25px;
+}
+
+.method {
+    background: #184157 url("../png/bg_waves_4.svg") bottom no-repeat;
+    background-size: cover;
+    color: #fff;
+    align-items: center;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.methodHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.example {
+    background: #416376;
+    padding: 10px 15px;
+    border-radius: 99px;
+}
+
+.example span {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.methodHeading .heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.methodHeading .content {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1, .button2, .button3 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 15px 50px;
+}
+
+.button1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.button3 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.result {
+    background: #fff;
+    height: 740px;
+    width: 600px;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.featureLists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.featureCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 297px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.featureList {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.featureList .heading {
+    font-size: 15px;
+}
+
+.featureCard .content {
+    font-size: 14px;
+}
+
+.featureList .lnr {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query should be place at the end*/
 @media only screen and (max-width: 800px) {
