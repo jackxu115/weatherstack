@@ -19,12 +19,6 @@ body {
 .column {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
 }
 
 .menuLink {
@@ -205,6 +199,9 @@ body {
 }
 
 .intro .customer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     font-size: 17px;
     font-weight: bold;
     border-radius: 17px;
@@ -220,6 +217,9 @@ body {
     gap: 20px;
 }
 
+.intro .trophy {
+    height: 20px;
+}
 .startAPI #API {
     background: #f47b21;
     padding: 20px 40px;
@@ -293,6 +293,10 @@ body {
 
 .box .lnr {
     font-size: 30px;
+}
+
+.box .speed {
+    height: 30px;
 }
 
 .feature {
@@ -445,6 +449,10 @@ body {
 
 .featureList .lnr {
     font-size: 30px;
+}
+
+.lnr img {
+    height: 30px;
 }
 
 .grid {
