@@ -743,6 +743,23 @@ body {
 
 /* media query should be place at the end*/
 @media only screen and (max-width: 800px) {
+    /*layout and position debug*/
+    /** {*/
+    /*    background: #000 !important;*/
+    /*    color: #0f0 !important;*/
+    /*    outline: solid #f00 1px !important;*/
+    /*}*/
+
+    /*html, body {*/
+    /*    overflow-x: hidden;*/
+    /*}*/
+    /*body {*/
+    /*    width: 100%;*/
+    /*    overflow-x: scroll;*/
+    /*}*/
+
+    /*html, body {width: 100vw !important;}*/
+
     .menu {
         padding-left: 20px;
         padding-right: 20px;
@@ -864,6 +881,9 @@ body {
     .company {
         gap: 30px;
         overflow-x: auto;
+        margin: 0;
+        /*padding: 0;*/
+        /*display: none;*/
     }
 
     .company0 {
@@ -923,6 +943,10 @@ body {
 
     .feature .map img {
         width: 330px
+    }
+
+    .methodHeading {
+        width: 350px;
     }
 
     .methodHeading .heading {
@@ -1023,25 +1047,9 @@ body {
         text-align: center;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .background-images {
         height: 900px;
+        /*display: none;*/
     }
 
 
