@@ -741,42 +741,313 @@ body {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media query should be place at the end*/
 @media only screen and (max-width: 800px) {
+    .menu {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .menu .menuContainer.menuLink {
         display: none;
     }
+
     .burgerMenu {
         display: block;
         color: white;
         font-size: 25px;
         height: 30px;
-        width: 50px;
+        width: 30px;
     }
-}
 
-@media only screen and (max-width: 400px) {
-    .burgerMenu {
-        /*display: none;*/
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 780px;
+        justify-content: normal;
+        gap: 40px;
     }
+
+    .intro {
+        padding-right: 20px;
+        padding-left: 20px;
+        align-items: center;
+    }
+
+    .intro h2 {
+        width: 300px;
+        font-size: 25px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .intro h4 {
+        font-size: 18px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .intro h4 br {
+        display: none;
+    }
+
+    .intro .customer {
+        width: 320px;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px ;
+        gap: 0;
+    }
+
+    .intro .customer span {
+        text-align: center;
+        width: 250px;
+    }
+
+    .startAPI #API {
+        padding: 20px 20px;
+    }
+
+    .background {
+        margin: 0;
+        padding-top: 20px;
+        width: 342px;
+        height: 292px;
+    }
+
+    .background .location {
+        padding-top: 0;
+    }
+
+    .background .main {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: normal;
+        align-items: normal;
+        padding-top: 40px;
+        gap: 0;
+    }
+
+    .main .main_left {
+        order: -1;
+        margin-left: 0;
+        padding: 0;
+        margin-top: -30px;
+    }
+
+    .main .main_right {
+        order: -2;
+        margin-right: 20px;
+        margin-left: 70px;
+        padding: 0;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+
+    .main .main_center {
+        padding: 0;
+        margin-top: -40px;
+    }
+
+    .main_center .temperature {
+        padding-right: 20px;
+    }
+
+    .weeks {
+        gap: 2px;
+    }
+
+    .company {
+        gap: 30px;
+        overflow-x: auto;
+    }
+
+    .company0 {
+        display: none;
+    }
+
+    .company1 img, .company2 img{
+        width: 120px;
+    }
+
+    .company5 img {
+        width: 130px;
+    }
+
+    .show {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxes {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .box .heading {
+        font-size: 18px;
+    }
+
+    .box .content {
+        font-size: 16px;
+    }
+
+    .feature {
+        flex-direction: column;
+        gap: 120px;
+        padding: 0 20px 100px;
+    }
+
+    .feature .detail {
+        align-items: center;
+    }
+
+    .detail .heading {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .detail .content {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .detail .lists {
+        align-items: center;
+    }
+
+    .feature .map img {
+        width: 330px
+    }
+
+    .methodHeading .heading {
+        width: 300px;
+        text-align: center;
+    }
+
+    .methodHeading .content {
+        width: 350px;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .method .button {
+        flex-direction: column;
+    }
+
+    .button1 {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
+    }
+
+    .button3 {
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+    }
+
+    .result {
+        width: 350px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .featureCard {
+        width: 320px;
+        margin: 0;
+    }
+
+    .featureCard .heading {
+        font-size: 18px;
+    }
+
+    .featureCard .content {
+        font-size: 16px;
+    }
+
+    .grid .heading {
+        width: 350px;
+        text-align: center;
+    }
+
+    .grid .content {
+        width: 350px;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .client {
+        justify-content: center;
+    }
+
+    .access .heading, .access .lnr {
+        display: none;
+    }
+
+    .access .button {
+        width: 330px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 40px 20px 60px;
+        gap: 60px;
+    }
+
+    .footerLeft {
+        width: 350px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footerLeft .leftLists {
+        padding-top: 40px;
+    }
+
+    .footerRight {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerRight .footerLogo {
+        padding-bottom: 30px;
+    }
+
+    .footerRight .copyright {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .background-images {
+        height: 900px;
+    }
+
+
+
+
+
+
+
 }
