@@ -81,7 +81,7 @@ body {
 }
 
 #dropdown-content {
-    /*display: none;*/
+    display: none;
 }
 
 #dropdown-content a {
