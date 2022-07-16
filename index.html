@@ -8,7 +8,6 @@
     <title>WeatherStack</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/739e5dbd28.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -30,8 +29,60 @@
         <a href="javascript:void(0)" class="signup">SIGN UP FREE</a>
     </div>
     <div class="menuContainer burgerMenu">
-        <i class="fa-solid fa-bars"></i>
+        <div id="myDropdown">
+            <i id="dropdown" class="fa-solid fa-bars"></i>
+        </div>
     </div>
+
+</div>
+<div id="dropdown-content">
+    <div>
+        <a class="dropdown-text" href="#">
+            Pricing
+            <span class="lnr lnr-chevron-right"></span>
+        </a>
+    </div>
+    <div>
+        <a class="dropdown-text" href="#">
+            Documentation
+            <span class="lnr lnr-chevron-right"></span>
+        </a>
+    </div>
+    <div>
+        <a class="dropdown-text" href="#">
+            FAQ
+            <span class="lnr lnr-chevron-right"></span>
+        </a>
+    </div>
+    <div>
+        <a class="dropdown-text" href="#">
+            Affiliates
+            <span class="lnr lnr-chevron-right"></span>
+        </a>
+    </div>
+    <div>
+        <a class="dropdown-text" href="#">
+            Blog
+            <span class="lnr lnr-chevron-right"></span>
+        </a>
+    </div>
+    <div>
+        <a class="dropdown-text" href="#">
+            Status
+            <span class="lnr lnr-chevron-right"></span>
+        </a>
+    </div>
+    <div>
+        <a class="dropdown-text" href="#">
+            Login
+            <span class="lnr lnr-chevron-right"></span>
+        </a>
+    </div>
+    <div class="signupBox">
+        <a class="dropdown-text signup" href="#">Sing up free</a>
+    </div>
+
+
 </div>
 <div class="container row home">
     <div class="intro">
@@ -182,7 +233,7 @@
 <div class="container column method">
     <div class="methodHeading">
         <div class="example">
-            <span >example</span>
+            <span>example</span>
         </div>
         <span class="heading">Complete Weather Data Coverage</span>
         <span class="content">Get years of historical weather data, request real-time weather information or make use of accurate weather forecasts.</span>
@@ -235,7 +286,8 @@
                 <span class="heading">Extensive API Documentation</span>
             </div>
             <span class="content">An API is only as good as its documentation, which is why a series of interactive code examples in multiple languages are waiting for you.</span>
-        </div></div>
+        </div>
+    </div>
 </div>
 <div class="container column grid ">
     <span class="heading">Join more than 75,000 companies worldwide using the weatherstack API</span>
@@ -375,6 +427,7 @@
 </div>
 
 
+<script src="js/main.js"></script>
 </body>
 
 </html>
